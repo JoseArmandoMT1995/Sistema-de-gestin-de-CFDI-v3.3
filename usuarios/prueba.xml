@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><br><Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"Version:="3.3"
+Serie:="A"
+Folio:="12"
+Fecha:="2018-10-14 07:05:00"
+Sello:=" "
+FormaPago:="A "
+NoCertificado:=" "
+CertificadoCertificado:=""
+Descuento:="500"
+Moneda:="MEX"
+Total:="8955"
+TipoDeComprobante:="T"
+MetodoPago:="PIP"
+LugarExpedicion:="MEX"></br><cfdi:Emisor
+Rfc:="125672890'09876"
+Nombre:="Bussynes System de Mexico S.A de C.V."
+RegimenFiscal:="POR DEFINIR"/></br><cfdi:Receptor
+Rfc:="677632528127"
+Nombre:="Instituto Tecnologico de GAM."
+RegimenFiscal:="POR DEFINIR"/></br><cfdi:Conceptos></br><cfdi:Concepto
+ClaveProdServ="1" NoIdentificacion="1" Cantidad="2" ClaveUnidad="1" Unidad="1" Descripcion="lg zone" ValorUnitario="2500" Importe="4500" Descuento="500"></br><cfdi:Impuestos></br><cfdi:Traslados></br><cfdi:Traslado Base="4500" Impuesto="2" TipoFactor="2" TasaOCuota="2" Importe="4500"/></br><cfdi:Traslado Base="4500" Impuesto="3" TipoFactor="0.5" TasaOCuota="0.5" Importe="4500"/></br></cfdi:Traslados></br><cfdi:Retenciones></br><cfdi:Traslado Base="4500" Impuesto="1" TipoFactor="0.5" TasaOCuota="0.5" Importe="4500"/></br><cfdi:Traslado Base="4500" Impuesto="2" TipoFactor="0.5" TasaOCuota="0.5" Importe="4500"/></br><cfdi:Traslado Base="4500" Impuesto="3" TipoFactor="0.5" TasaOCuota="0.5" Importe="4500"/></br></cfdi:Retenciones></br></cfdi:Impuestos></br></cfdi:Concepto></br></cfdi:Conceptos></br><cfdi:Impuestos TotalImpuestosTrasladados="4522.5" TotalImpuestosRetenidos="67.5"></br><cfdi:Traslados></br><cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="0"/></br><cfdi:Traslado Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.500000" Importe="22.5"/></br></cfdi:Traslados></br><cfdi:Retenciones></br><cfdi:Retenido Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="22.5"/></br><cfdi:Retenido Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="22.5"/></br><cfdi:Retenido Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="22.5"/></br></cfdi:Retenciones></br></cfdi:Impuestos>
